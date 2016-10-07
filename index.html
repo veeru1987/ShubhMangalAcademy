@@ -29,6 +29,10 @@
 <link rel="stylesheet" href="css/styles.css" />
 <!-- Font Awesome -->
 <link href="font/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!-- Style The Contact Form How Ever You Prefer -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/style.css">
 </head>
 
 <body>
@@ -556,5 +560,18 @@
  <script src="contact/contact_me.js"></script>
 <script src="js/custom.js" type="text/javascript"></script> 
 <script src="js/owl-carousel/owl.carousel.js"></script>
+
+    <div style="display:none;" id="thankyou_message">
+        <h2>
+            <em>Thanks</em> for contacting us!
+            We will get back to you soon!
+        </h2>
+    </div>
+
+    <!-- Submit the Form to Google Using "AJAX" -->
+    <script data-cfasync="false" type="text/javascript"
+            src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js">
+
+    </script>
 </body>
 </html>
